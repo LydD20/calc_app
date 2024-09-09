@@ -1,5 +1,5 @@
-#Hello Professor Williams
-##Instructions for Homework 1
+# Hello Professor Williams
+## Instructions for Homework 1
 1. Create project folder
 2. Create homework1 folder
 3. Create RSA key and add contents
