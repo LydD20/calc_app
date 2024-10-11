@@ -1,4 +1,4 @@
-'''multiply command Imports Command from calculator.commands.command'''
+'''Multiply Command'''
 from calculator.commands.command import Command
 
 class MultiplyCommand(Command):
@@ -8,6 +8,3 @@ class MultiplyCommand(Command):
 
     def execute(self):
         return self.a * self.b
-
-# def register():
-#     return MultiplyCommand
