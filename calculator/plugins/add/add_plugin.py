@@ -1,4 +1,4 @@
-'''add command Imports Command from calculator.commands.command '''
+'''Add command'''
 from calculator.commands.command import Command
 
 class AddCommand(Command):
@@ -8,6 +8,3 @@ class AddCommand(Command):
 
     def execute(self):
         return self.a + self.b
-
-# def register():
-#     return AddCommand
