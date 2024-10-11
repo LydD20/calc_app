@@ -1,5 +1,5 @@
 import sys
-from calculator import Calculator
+from calculator import operations
 from decimal import Decimal, InvalidOperation
 
 # Initialize an empty history list
@@ -7,12 +7,12 @@ history = []
 
 def calculate_and_print(a, b, operation_name):
     operation_mappings = {
-        'add': Calculator.add,
-        'subtract': Calculator.subtract,
-        'multiply': Calculator.multiply,
-        'divide': Calculator.divide,
-        'exponent': Calculator.exponent,
-        'radical_expression': Calculator.radical_expression,
+        'add': operations.add,
+        'subtract': operations.subtract,
+        'multiply': operations.multiply,
+        'divide': operations.divide,
+        'exponent': operations.exponent,
+        'radical_expression': operations.radical_expression,
     }
 
     # Unified error handling for decimal conversion
