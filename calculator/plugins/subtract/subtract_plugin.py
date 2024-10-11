@@ -1,4 +1,4 @@
-'''subtract command Imports Command from calculator.commands.command'''
+'''Subtract Command'''
 from calculator.commands.command import Command
 
 class SubtractCommand(Command):
@@ -8,6 +8,3 @@ class SubtractCommand(Command):
 
     def execute(self):
         return self.a - self.b
-
-# def register():
-#     return SubtractCommand
