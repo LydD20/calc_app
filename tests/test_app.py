@@ -15,7 +15,7 @@ def test_app_get_environment_variable():
     # Retrieve the current environment setting
     current_env = app.get_environment_variable('ENVIRONMENT')
     # Assert that the current environment is what you expect
-    assert current_env in ['DEVELOPMENT', 'TESTING', 'PRODUCTION'], f"Invalid ENVIRONMENT: {current_env}"
+    assert current_env in ['DEVELOPMENT', 'TESTING', 'PRODUCE'], f"Invalid ENVIRONMENT: {current_env}"
 
 # Apply the parametrize decorator to the test function
 @pytest.mark.parametrize("a_string, b_string, operation_string, expected_string", [
